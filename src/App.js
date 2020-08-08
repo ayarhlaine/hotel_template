@@ -4,11 +4,12 @@ import House from './House/House';
 import Hotel from './Hotel/Hotel';
 import Apartment from './Apartment/Apartment';
 import MostPick from './MostPick/MostPick';
+import PageIntro from './PageIntro/PageIntro';
 
 function App() {
   return (
     <div className="App container">
-      {/* Page Intro */}
+      <PageIntro />
       <MostPick />
       <House />
       <Hotel />
