@@ -1,7 +1,8 @@
 import React from 'react'
+import './SectionTitle.scss';
 const SectionTitle = ({ title }) =>{
     return (
-        <div>
+        <div className="SectionTitle">
             <h3> { title }</h3>
         </div>
     )

@@ -1,7 +1,7 @@
 import React from 'react'
 import SingleItem from '../SingleItem/SingleItem'
 import SectionTitle from '../SectionTitle/SectionTitle'
-
+import "./Hotel.scss";
 function Hotel() {
     return (
         <div className={'Hotel'}>

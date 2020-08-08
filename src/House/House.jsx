@@ -1,7 +1,7 @@
 import React from 'react'
 import SingleItem from '../SingleItem/SingleItem'
 import SectionTitle from '../SectionTitle/SectionTitle'
-
+import './House.scss';
 function House() {
     return (
         <div className={'House'}>

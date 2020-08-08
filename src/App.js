@@ -3,17 +3,15 @@ import './App.scss';
 import House from './House/House';
 import Hotel from './Hotel/Hotel';
 import Apartment from './Apartment/Apartment';
+import MostPick from './MostPick/MostPick';
 
 function App() {
   return (
     <div className="App container">
       {/* Page Intro */}
-      {/* Most Pick */}
-      {/* Houses */}
+      <MostPick />
       <House />
-      {/* Hotels */}
       <Hotel />
-      {/* Appartments */}
       <Apartment />
       {/* Happy Family */}
       {/* Footer */}

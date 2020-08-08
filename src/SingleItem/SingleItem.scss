@@ -5,7 +5,10 @@
             border-radius: $image-border-radius;
         }
     }
-    .SingleItem__Location{
-        font-weight: 50;
+    .SingleItem__Bottom__Container{
+        padding: 5px 0;
+        .SingleItem__Location{
+            font-weight: 50;
+        }
     }
 }
