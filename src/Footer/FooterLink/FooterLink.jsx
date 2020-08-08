@@ -6,7 +6,7 @@ const FooterLink = ({ title, links = []}) => {
             <h4>{title}</h4>
             {
                 links.map((link, index) => {
-                    return <a href="#" key={index}> {link} </a>
+                    return <a href="#no-action" key={index}> {link} </a>
                 })
             }
         </div>
