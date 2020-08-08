@@ -5,10 +5,10 @@ function RightPanel() {
         <div className="RightPanel">
             <div className="Pannel__Wrapper">
                 <div className="layer1">
-                    <img src="/images/house1.jpg" alt=""/>
+                    <img src={process.env.PUBLIC_URL+"/images/house1.jpg"} alt=""/>
                 </div>
                 <div className="layer2">
-                    <img src="/images/house2.jpg" alt=""/>
+                    <img src={process.env.PUBLIC_URL+"/images/house2.jpg"} alt=""/>
                 </div>
             </div>
         </div>
