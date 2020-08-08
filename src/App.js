@@ -1,21 +1,15 @@
 import React from 'react';
 import './App.scss';
-import House from './House/House';
-import Hotel from './Hotel/Hotel';
-import Apartment from './Apartment/Apartment';
-import MostPick from './MostPick/MostPick';
-import PageIntro from './PageIntro/PageIntro';
+import PageBody from './PageBody/PageBody';
+import Footer from './Footer/Footer';
+import NavBar from './NavBar/NavBar';
 
 function App() {
   return (
-    <div className="App container">
-      <PageIntro />
-      <MostPick />
-      <House />
-      <Hotel />
-      <Apartment />
-      {/* Happy Family */}
-      {/* Footer */}
+    <div className="App">
+      <NavBar />
+      <PageBody />
+      <Footer />
     </div>
   );
 }
