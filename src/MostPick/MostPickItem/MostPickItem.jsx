@@ -1,11 +1,11 @@
 import React from 'react'
 import './MostPickItem.scss';
 const MostPickItem = ({ mainItem }) => {
+    const imageURL = process.env.PUBLIC_URL+"/images/house1.jpg";
     return (
         <div className="MostPickItem">
             <div className={`MostPickItem__Container ${mainItem ? 'MainItem': 'OtherItem'}`} style={{
-                // backgroundImage: `url(${(item.imageLinks && item.imageLinks.smallThumbnail) || "/images/book.jpg"})`
-                backgroundImage: `url("/images/house1.jpg")`,
+                backgroundImage: `url(${imageURL})`,
             }}>
                 <div className="MoctPickItem__Overlay">
                     <div className="Top__Section">
