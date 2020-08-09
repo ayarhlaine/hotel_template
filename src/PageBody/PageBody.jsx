@@ -5,6 +5,7 @@ import Hotel from '../Hotel/Hotel';
 import Apartment from '../Apartment/Apartment';
 import MostPick from '../MostPick/MostPick';
 import PageIntro from '../PageIntro/PageIntro';
+import HappyFamily from '../HappyFamily/HappyFamily';
 
 function PageBody() {
   return (
@@ -14,6 +15,7 @@ function PageBody() {
       <House />
       <Hotel />
       <Apartment />
+      <HappyFamily />
       {/* Happy Family */}
     </div>
   );
