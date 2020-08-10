@@ -1,3 +1,10 @@
+# hotel_template
+Hotel Template (React, Material UI, Bootstrap).
+
+## Demo Link
+https://ayarhlaine.github.io/hotel_template/
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +73,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+
+## Credit to Designer
+https://dribbble.com/shots/13960999-Vacation-website-Stayliday/attachments/5573373?mode=media
