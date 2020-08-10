@@ -1,8 +1,14 @@
+@import 'styles/colors';
 .LeftPanel{
+    h1 {
+        font-weight: bold;
+        color: $hotel-blue-violet;
+    }
     p{
         margin-top: 1rem;
     }
     button{
-        margin-top: 1rem;
+        margin-top: 3rem;
+        background: $hotel-blue;
     }
 }

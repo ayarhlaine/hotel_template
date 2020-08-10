@@ -1,6 +1,12 @@
+@import 'styles/colors';
 .NavBar{
     border-bottom: solid 1px #DED6D6;
     img{
         width: 70px;
+    }
+    .nav-link{
+        font-weight: bold;
+        font-size: 20px;
+        color: $hotel-blue-violet;
     }
 }

@@ -1,4 +1,5 @@
 @import 'styles/shared';
+@import 'styles/colors';
 .SingleItem{
     .SingleItem__Image__Container{
         img{
@@ -7,8 +8,12 @@
     }
     .SingleItem__Bottom__Container{
         padding: 5px 0;
+        .SingleItem__Name{
+            color: $hotel-blue-violet;
+        }
         .SingleItem__Location{
-            font-weight: 50;
+            font-weight: lighter;
+            color: gray;
         }
     }
 }

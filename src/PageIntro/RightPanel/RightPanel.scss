@@ -1,9 +1,11 @@
+@import 'styles/colors';
 .RightPanel{
     padding: 1rem;
     position: relative;
-    min-height: 300px;
     .Pannel__Wrapper{
+        height: 350px;
         .layer1{
+            border: 1px solid $hotel-border;
             border-radius: 5px;
             border-top-left-radius: 50px;
             top: 2rem;
