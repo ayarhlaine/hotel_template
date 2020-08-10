@@ -16,12 +16,12 @@ function RightPanel() {
     useEffect(() => {
         const timerID = setInterval(
             () => changeIndex(),
-            5000
+            process.env.SLIDER_TIMER || 5000
         );
         return () => {
             clearInterval(timerID);
         };
-    }, [index]);
+    });
     return (
         <div className="RightPanel">
             <div className="Pannel__Wrapper">
