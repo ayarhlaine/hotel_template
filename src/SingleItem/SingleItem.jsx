@@ -1,10 +1,13 @@
 import React from 'react'
 import './SingleItem.scss';
 function SingleItem() {
+    const imageURL = process.env.PUBLIC_URL+"/images/house1.jpg";
     return (
         <div className={'SingleItem col-md-3'}>
-            <div className="SingleItem__Image__Container">
-                <img src={process.env.PUBLIC_URL+"/images/house1.jpg"} alt="House" className="w-100"/>
+            <div className="SingleItem__Image__Container" style={{
+                backgroundImage: `url(${imageURL})`,
+            }}>
+                <div className="SingleItem__PopularChoice"> Popular Choice</div>
             </div>
             <div className="SingleItem__Bottom__Container">
                 <h4 className="SingleItem__Name">Sedona</h4>

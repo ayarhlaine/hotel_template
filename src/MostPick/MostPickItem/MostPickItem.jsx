@@ -9,11 +9,13 @@ const MostPickItem = ({ mainItem }) => {
             }}>
                 <div className="MoctPickItem__Overlay">
                     <div className="Top__Section">
-
+                        <div className="MoctPickItem__PopularChoice">$ 39.99 per night</div>
                     </div>
                     <div className="Bottom__Section">
+                        <div>
                         <h4 className="MostPickItem__Name">Sedona</h4>
                         <p className="MostPickItem__Location">Yangon in Myanmar</p>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -2,8 +2,21 @@
 @import 'styles/colors';
 .SingleItem{
     .SingleItem__Image__Container{
-        img{
-            border-radius: $image-border-radius;
+        min-height: 200px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: $image-border-radius;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        .SingleItem__PopularChoice{
+            background: $hotel-pink;
+            color: $hotel-white;
+            text-align: center;
+            width: 70%;
+            min-height: 30px;
+            border-bottom-left-radius: $image-border-radius;
+            border-top-right-radius: $image-border-radius;
         }
     }
     .SingleItem__Bottom__Container{

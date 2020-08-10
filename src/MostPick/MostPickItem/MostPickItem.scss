@@ -22,10 +22,25 @@
             flex-direction: column;
             .Top__Section{
                 height: 50%;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                .MoctPickItem__PopularChoice{
+                    background: $hotel-pink;
+                    color: $hotel-white;
+                    text-align: center;
+                    width: 70%;
+                    min-height: 30px;
+                    border-bottom-left-radius: $image-border-radius;
+                    border-top-right-radius: $image-border-radius;
+                }
             }
             .Bottom__Section{
                 height: 50%;
-                padding: 1rem;
+                padding-left: 1rem;
+                display: flex;
+                flex-direction: row;
+                align-items: flex-end;
                 .MostPickItem__Name{
                     color: $hotel-white;
                 }
