@@ -1,7 +1,7 @@
 import React from 'react'
 import './MostPickItem.scss';
-const MostPickItem = ({ mainItem }) => {
-    const imageURL = process.env.PUBLIC_URL+"/images/house1.jpg";
+const MostPickItem = ({ mainItem, image, name, location, price }) => {
+    const imageURL = process.env.PUBLIC_URL+"/images/"+image;
     return (
         <div className="MostPickItem">
             <div className={`MostPickItem__Container ${mainItem ? 'MainItem': 'OtherItem'}`} style={{
@@ -9,12 +9,12 @@ const MostPickItem = ({ mainItem }) => {
             }}>
                 <div className="MoctPickItem__Overlay">
                     <div className="Top__Section">
-                        <div className="MoctPickItem__PopularChoice">$ 39.99 per night</div>
+                        <div className="MoctPickItem__PopularChoice">$ {price} per night</div>
                     </div>
                     <div className="Bottom__Section">
                         <div>
-                        <h4 className="MostPickItem__Name">Sedona</h4>
-                        <p className="MostPickItem__Location">Yangon in Myanmar</p>
+                        <h4 className="MostPickItem__Name">{name}</h4>
+                        <p className="MostPickItem__Location">{location}</p>
                         </div>
                     </div>
                 </div>

@@ -19,7 +19,7 @@ function Footer() {
                                 <FooterLink title="Explore Us" links={['About', 'Pravicy & Policy', 'Terms & Conditions']}/>
                             </div>
                             <div className="col-md-4">
-                                <FooterLink title="Getting Touch" links={['Start Booking', 'Use Payment']}/>
+                                <FooterLink title="Getting Touch" links={['Contact Us']}/>
                             </div>
                         </div>
                     </div>
